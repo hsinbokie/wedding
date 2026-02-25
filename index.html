@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>奇洋 & 彥翎的結婚喜帖</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@400;700&display=swap');
+        
+        body {
+            font-family: 'Noto Serif TC', serif;
+            background-color: #fcf9f2;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        .invitation-card {
+            background-color: #b02a26; /* 經典酒紅色 */
+            color: white;
+            max-width: 500px;
+            width: 100%;
+            min-height: 100vh;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+            text-align: center;
+            overflow: hidden;
+        }
+        /* 這裡放你們的婚紗照 */
+        .photo-area {
+            background-color: #eee;
+            height: 800px;
+            /* 將下方 url 內的網址替換成你們婚紗照的實際圖片連結 */
+            background-image: url('https://ppt.cc/fDXdVx@.jpg'); 
+            background-size: cover;
+            background-position: center;
+            position: relative;
+        }
+        .content {
+            padding: 40px 30px;
+        }
+        h1 {
+            font-family: 'Brush Script MT', cursive;
+            font-size: 3em;
+            margin: 0 0 5px 0;
+            font-weight: normal;
+            color: #f7e1b5; /* 高雅金色 */
+        }
+        .subtitle {
+            font-size: 1.5em;
+            letter-spacing: 8px;
+            margin-bottom: 40px;
+            font-weight: bold;
+        }
+        .names {
+            font-size: 1.8em;
+            margin-bottom: 30px;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .names span {
+            display: block;
+            font-size: 0.5em;
+            margin-bottom: 8px;
+            letter-spacing: 2px;
+            color: #f7e1b5;
+        }
+        .parents {
+            font-size: 1.1em;
+            margin-bottom: 40px;
+            line-height: 2;
+            letter-spacing: 2px;
+        }
+        .details {
+            border-top: 1px solid rgba(247, 225, 181, 0.4);
+            border-bottom: 1px solid rgba(247, 225, 181, 0.4);
+            padding: 25px 0;
+            margin-bottom: 40px;
+            line-height: 2;
+            letter-spacing: 1px;
+        }
+        .highlight {
+            color: #f7e1b5;
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+        .btn-group {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        .btn {
+            background-color: #f7e1b5;
+            color: #b02a26;
+            padding: 15px 20px;
+            text-decoration: none;
+            border-radius: 30px;
+            font-weight: bold;
+            font-size: 1.1em;
+            letter-spacing: 1px;
+            transition: 0.3s;
+        }
+        .btn:hover {
+            background-color: white;
+            box-shadow: 0 0 10px rgba(255,255,255,0.5);
+        }
+    </style>
+</head>
+<body>
+    <div class="invitation-card">
+        <div class="photo-area"></div>
+        
+        <div class="content">
+            <h1>Wedding Day</h1>
+            <div class="subtitle">大囍之日</div>
+            
+            <div class="names">
+                <div>
+                    <span>新郎</span>
+                    辛奇洋
+                </div>
+                <div style="font-size: 1.2em; color: #f7e1b5;">💍</div>
+                <div>
+                    <span>新娘</span>
+                    彭彥翎
+                </div>
+            </div>
+            
+            <div class="parents">
+                男方主婚人：辛水龍 孫中秀<br>
+                女方主婚人：彭以程 王秀美
+            </div>
+            
+            <div class="details">
+                <span class="highlight">2026年04月18日 (六)</span><br>
+                12:00 準時入席<br><br>
+                <strong>| 宴會地點 |</strong><br>
+                格萊天漾大飯店 13樓天漾廳<br>
+                臺北市萬華區艋舺大道101號<br>
+                02-23383366
+            </div>
+            
+            <div class="btn-group">
+                <a href="https://www.google.com/maps/dir/?api=1&destination=%E6%A0%BC%E4%BE%86%E5%A4%A9%E6%BC%BE%E5%A4%A7%E9%A3%AF%E5%BA%97" target="_blank" class="btn">📍 開啟地圖導航</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
